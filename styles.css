@@ -88,7 +88,7 @@ a:hover {
 }
 
 .header {
-    color: #555555;
+    color: black;
     /* background-color: #555555; */
     font-weight: 200;
     font-size: 3rem;
@@ -96,16 +96,16 @@ a:hover {
 }
 
 a.header:visited { 
-    color: #555555;
+    color: black;
     text-decoration: none	
 }
 
 a.header:link { 
-    color: #555555;
+    color: black;
     text-decoration: none	
 			 
 }
 
 div.block {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
