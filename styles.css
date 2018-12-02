@@ -1,49 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
-	background-color: white;
-	color: black;
-        margin-left: 20; 
-        margin-top: 10;
+  background: #f6f6f6;
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 0.2rem;
+  margin-top: 1rem;
+}
+
+h2 { 
+  font-weight: 300;
+  font-size: 2.2rem;
+  margin-bottom: 0.2rem;
+  margin-top: .7rem;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 70rem;
+  padding: 1.3rem;
+}
+
+p {
+    padding: 0.4rem 0rem 0.7rem;
 }
 
 img { 
         border: 0;
  }
-
-h1 { 
-        font-size: 1.2em;
-        font-weight: bold;
- }
-
-h2 { 
-        font-size: 1em;
-        font-weight: bold;
- }
-
-h3 { 
-        font-size: 1.1em;
-        margin-bottom: 0.25em;
-        margin-top: 1.5em;
- }
-
-h4 { 
-        font-size: 1em;
-        margin-bottom: 0.5em;
- }
-
-p.small {line-height:90%}
-p.big {line-height:200%}
-
-table.tight: { 
-        margin: 0;
-        padding: 0;
-        cellspacing: 0;
- }
-td.banner { 
-        padding: 15;
-        background-color: #333333;
-}
 
 a:link {
 	color: blue;
@@ -71,6 +73,15 @@ a:hover {
 	text-decoration: underline
 }
 
+@media (max-width: 767px) {
+  .image, .text { clear: both; }
+}
 
+.sidebar {
+    margin-left: 2rem;
+}
 
-
+.sidep {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
